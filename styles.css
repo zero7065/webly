@@ -1,0 +1,277 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px; /* Added maximum width for better readability on larger screens */
+}
+
+.content, .skills-content p {
+    font-size: 16px; /* Ensuring consistent font size */
+    line-height: 1.6; /* Ensuring consistent line height */
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px; /* Adjust size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem 0;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-image: url('WhatsApp Image 2024-04-10 at 16.50.17_474e686f.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+}
+
+.slideshow {
+    display: inherit; /* Hide slideshow by default */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Button Styles */
+.btn, #toggle-register-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover, #toggle-register-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Registration Form Styles */
+.registration-form {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form .container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.registration-form form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.registration-form label {
+    font-size: 1.2rem;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Hide Element Class */
+.hidden {
+    display: none;
+}
+
+/* Additional Styles */
+.skills-showcase, .accommodation-section, .expedition-section {
+    margin-top: 40px;
+}
+
+.skills-showcase h2, .accommodation-section h2, .expedition-section h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.accommodation-section p, .expedition-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.footer-section.about p {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.social a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    border: 1px solid #777;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-bottom: 30px;
+    }
+}
